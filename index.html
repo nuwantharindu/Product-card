@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Card</title>
+    <link rel="stylesheet" href="src/style.css">
+    <script src="src/script.js" ></script>
+</head>
+<body>
+    <div class="container">
+        <div class="product">
+            <div class="gallery">
+                <img src="src/img/image1.png" alt="image01" id="product-img">
+                <div class="image-controll">
+                    <span class="btn"></span>
+                    <span class="btn"></span>
+                    <span class="btn"></span>
+                </div>
+            </div>
+
+            <div class="product-info">
+                <h1 class="name">Casual T Shirt</h1>
+                <h2 class="price">$15.00</h2>
+                <h3 class="discount">30% OFF</h3>
+                <p class="discription">wranger is an amarican manufacturer of jeans and other clothing items, pracicularly workwar.</p>
+                <form>
+                    <div class="size-select">
+                        <p>Size</p>
+                        <label for="small">
+                            <input type="radio" name="size" id="small">
+                            <span>S</span>
+                        </label>
+                        <label for="medium">
+                            <input type="radio" name="size" id="medium">
+                            <span>M</span>
+                        </label>
+                        <label for="large">
+                            <input type="radio" name="size" id="large">
+                            <span>L</span>
+                        </label>
+                        <label for="extra-large">
+                            <input type="radio" name="size" id="extra-large">
+                            <span>XL</span>
+                        </label>
+                        <label for="extra-extra-large">
+                            <input type="radio" name="size" id="extra-extra-large">
+                            <span>XXL</span>
+                        </label>
+                    </div>
+
+                    <div class="color-select">
+                        <p>Color</p>
+                        <label for="red">
+                            <input type="radio" name="color" id="red">
+                            <span class="color-1"></span>
+                        </label>
+                        <label for="blue">
+                            <input type="radio" name="color" id="blue">
+                            <span class="color-2"></span>
+                        </label>
+                        <label for="green">
+                            <input type="radio" name="color" id="green">
+                            <span class="color-3"></span>
+                        </label>
+                        <label for="yellow">
+                            <input type="radio" name="color" id="yellow">
+                            <span class="color-4"></span>
+                        </label>
+                    </div>
+
+                    <div class="quantity-select">
+                        <p>Quantity</p>
+                        <input type="number" value="1">
+                    </div>
+
+                    <button class="buy-now-btn">Buy Now</button>
+
+                </form>
+
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>

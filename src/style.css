@@ -1,0 +1,194 @@
+*,*:before, *:after{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+
+  .container {
+    width: 100%;
+    min-height: 100vh;
+    background: #d0eaff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .product {
+    width: 90%;
+    max-width: 750px;
+    display: flex;
+  }
+
+  .gallery {
+    flex-basis: 47%;
+    background: #241e20;
+    transform: scale(1.1);
+    box-shadow: 3px 3px 19px -1px rgba(0,0,0,0.75);
+  }
+
+  .gallery img {
+    width: 100%;
+    display: block;
+    padding-top: 100px;
+  }
+
+  .product-info {
+    flex-basis: 53%;
+    background: white;
+    padding: 40px;
+    padding-left: 60px;
+    box-shadow: 3px 3px 19px -1px rgba(0,0,0,0.75);
+  }
+
+  .product-info h1 {
+    color: #333;
+    font-size: 35px;
+  }
+
+  .product-info h2 {
+    color: #555;
+    font-size: 30px;
+    margin-left: 10px;
+  }
+
+  .product-info h3 {
+    margin-top: 5px;
+    color: rgb(49, 167, 49);
+    margin-left: 10px;
+  }
+
+  .product-info p {
+    margin-top: 30px;
+    color: #777;
+  }
+
+  .product-info form {
+    font-size: 15px;
+    cursor: pointer;
+  }
+
+  .size-select {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+  }
+
+  .size-select p{
+    width: 70px;
+    margin: auto 0px;
+  }
+
+  .size-select input:checked + span {
+    color: blue;
+    font-size: 1.1rem;
+  }
+
+  .size-select span{
+    cursor: pointer;
+  }
+
+  .size-select input {
+    margin-right: 10px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+  }
+  
+  .color-select {
+    display: flex;
+    margin-top: 30px;
+    align-items: center;
+  }
+
+  .color-select p {
+    width: 70px;
+    margin: auto 0;
+  }
+
+  .color-select span {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    margin-right: 15px;
+    cursor: pointer;
+  }
+
+  .color-select input {
+    margin-right: 10px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+  }
+
+  .color-select input:checked + span {
+    transform: scale(0.8);
+    box-shadow: 0 0 0 4px white, 0 0 0 6px black;
+  }
+
+  .color-1 {
+    background: red;
+  }
+
+  .color-2 {
+    background: blue;
+  }
+
+  .color-3 {
+    background: green;
+  }
+
+  .color-4 {
+    background: yellow;
+  }
+
+  .quantity-select {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  .quantity-select p {
+    margin: auto 0;
+    width: 75px;
+  }
+
+  .quantity-select input {
+    background: #eee;
+    border: 0;
+    outline: 0;
+    padding: 2px 2px 2px 15px;
+    width: 50px;
+    border-radius: 30px;
+  }
+
+  .buy-now-btn {
+    color: white;
+    display: flex;
+    background: blue;
+    padding: 10px 90px;
+    border-radius: 30px;
+    margin: 60px auto;
+    border: 0;
+    outline: 0;
+    box-shadow: 3px 3px 19px -1px rgba(24, 90, 177, 0.75);
+  }
+
+  .image-controll {
+    position: absolute;
+    bottom: 40px;
+    right: 20px;
+  }
+
+  .btn {
+    display: block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: rgb(131, 127, 127);
+    margin: 10px;
+    cursor: pointer;
+  }
+
+  .active {
+    background: rgb(77, 77, 126);
+  }
+
